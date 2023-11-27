@@ -2,7 +2,7 @@ DungeonLeaver = {}
 
 DungeonLeaver.name = "DungeonLeaver"
 
-function DungeonLeaver.OnAddonLoaded(event, addonName)
+function DungeonLeaver.OnAddOnLoaded(event, addonName)
     if addonName ~= DungeonLeaver.name then return end
     EVENT_MANAGER:UnregisterForEvent(DungeonLeaver.name, EVENT_ADD_ON_LOADED)
 end
